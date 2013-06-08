@@ -4,5 +4,7 @@
     <string name="app_name">IWakeUp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="stop_alarm">Dismss</string>
+    <string name="alarm_hello">IWakeUp</string>
 
 </resources>
