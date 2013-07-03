@@ -16,8 +16,8 @@ public class GameActivity extends Activity {
 		setContentView(R.layout.webview);
 		
 		gameWebView = (WebView) findViewById(R.id.webview);
-//		myWebView.loadUrl("http://whackamine.meteor.com");
-		gameWebView.loadUrl("http://m.facebook.com");
+//		gameWebView.loadUrl("http://whackamine.meteor.com");
+		gameWebView.loadUrl("http://www.inmensia.com/files/minesweeper1.0.html");
 
 		WebSettings webSettings = gameWebView.getSettings();
 		webSettings.setJavaScriptEnabled(true);
