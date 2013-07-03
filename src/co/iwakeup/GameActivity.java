@@ -13,7 +13,7 @@ public class GameActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_game);
+		setContentView(R.layout.webview);
 		
 		gameWebView = (WebView) findViewById(R.id.webview);
 //		myWebView.loadUrl("http://whackamine.meteor.com");
