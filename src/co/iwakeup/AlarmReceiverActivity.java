@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
@@ -74,10 +75,11 @@ public class AlarmReceiverActivity extends Activity {
     }
     
     public void onClickDismiss(View view) {
-    	Context context = getApplicationContext();
+/*    	Context context = getApplicationContext();
     	CharSequence text = "You woke up!";
     	int duration = Toast.LENGTH_SHORT;
-
     	Toast.makeText(context, text, duration).show();
+*/    	
+    	startActivity(new Intent(this, GameActivity.class));
     }
 }
